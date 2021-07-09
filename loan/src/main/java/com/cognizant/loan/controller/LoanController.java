@@ -11,6 +11,6 @@ public class LoanController {
 	@GetMapping(value="/loans/{number}")
 	public Loan getLoanDetails(@PathVariable int number) {
 
-		return new Loan("H00987987972342","car",400000,3258,18);
+		return new Loan("H009879879754904","house",8000000,32580,96);
 	}
 }
